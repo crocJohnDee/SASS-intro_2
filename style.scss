@@ -1,0 +1,60 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav {
+    margin: 15px auto;
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.card {
+    text-align: center;
+    margin: 45px auto;
+    width: 85%;
+}
+
+figure{
+    width: 85%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+article, aside, section {
+    width: 90%;
+    margin:15px auto;
+}
+
+footer {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@import "media.scss";
+
+
+

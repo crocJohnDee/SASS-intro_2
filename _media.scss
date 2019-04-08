@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) {
+
+    nav {
+        width: 350px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 29%;
+    }
+
+   
+
+    .portion {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: start;
+        figure {
+            width: 260px;
+            margin: 0;
+        }
+        article {
+            width: 65%;
+            margin: 0;
+            margin-left: 10px;
+            vertical-align: baseline;  
+        }
+    }
+
+    footer {
+        width: 350px;
+        margin: 15px auto;
+    }
+
+}
